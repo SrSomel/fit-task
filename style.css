@@ -19,6 +19,24 @@
   width: 50px;
   position: absolute;
   z-index: 2;
-  margin-left: 900px;
+  margin-left: 1500px;
   margin-top: 15px;
 }
+
+#exer{
+  margin-top: 13%;
+  margin-left: 20%;
+  border-radius: 10%;
+  width: 1000px;
+  position: absolute;
+  z-index: 1;
+}
+
+.bv{
+  position: absolute;
+  z-index: 2;
+  margin-top: 20px;
+  font-size: 70px;
+  margin-left: 600px;
+}
+
