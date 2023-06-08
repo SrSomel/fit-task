@@ -1,4 +1,4 @@
-.barra{
+.cabecalho{
    background-color: black;
   height: 100px;
   width: 100%;
@@ -11,32 +11,31 @@
 #titulo {
   width: 270px;
   margin-top: -5px;
-  position: absolute;
+  position: fixed;
   z-index: 2;
 } 
 
 #menu {
   width: 50px;
-  position: absolute;
+  position: fixed;
   z-index: 2;
-  margin-left: 1500px;
+  margin-left: 1250px;
   margin-top: 15px;
 }
 
-#exer{
+#imagem_demonstativa{
   margin-top: 13%;
-  margin-left: 20%;
+  margin-left: 15%;
   border-radius: 10%;
   width: 1000px;
-  position: absolute;
+  position: center;
   z-index: 1;
 }
 
-.bv{
-  position: absolute;
-  z-index: 2;
-  margin-top: 20px;
-  font-size: 70px;
-  margin-left: 600px;
+#comecar{
+  margin-top: 13%;
+  margin-left: 40%;
+  width: 300px;
+  position: center;
+  z-index: 1;
 }
-
