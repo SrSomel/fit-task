@@ -15,12 +15,12 @@
   z-index: 2;
 } 
 
-#menu {
+#login {
   width: 50px;
   position: fixed;
   z-index: 2;
   margin-left: 1250px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 #imagem_demonstativa{
