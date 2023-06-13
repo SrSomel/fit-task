@@ -34,8 +34,26 @@
 
 #comecar{
   margin-top: 13%;
-  margin-left: 40%;
+  margin-left: 180%;
   width: 300px;
+  height: 100px;
   position: center;
   z-index: 1;
+  border-radius: 10px;
+}
+
+.animacao {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.animacao img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.animacao img:hover {
+  transform: scale(1.1);
 }
