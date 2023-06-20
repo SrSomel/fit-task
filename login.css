@@ -13,6 +13,10 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.nome_senha{
+  color: #fff;
+}
+
 input[type="text"],
 input[type="password"] {
   width: 100%;
@@ -22,6 +26,7 @@ input[type="password"] {
   box-sizing: border-box;
   margin-bottom: 10px;
 }
+
 
 input[type="submit"] {
   background-color: #4caf50;
@@ -38,8 +43,11 @@ input[type="submit"]:hover {
 }
 
 .registrar{
+  background-color: #45a049;
   margin-left: 70px;
-
+  color: #fff;
+  padding: 10px 20px;
+  
 
 }
 
