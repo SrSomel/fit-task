@@ -29,7 +29,7 @@ input[type="password"] {
 
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #584242;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -39,16 +39,16 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #d84d4d;
 }
 
 .registrar{
-  background-color: #45a049;
+  background-color: #584242;
+  background-color: ;
   margin-left: 70px;
   color: #fff;
   padding: 10px 20px;
-  
-
+  border-radius: 5px;
 }
 
 #titulo{
