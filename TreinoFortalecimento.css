@@ -23,7 +23,7 @@
   margin-top: 20px;
 }
 
-.barra_preta{
+.selecao{
  background-color: rgb(70, 70, 70);
  position: fixed;
  padding: 80px;
@@ -31,44 +31,24 @@
  margin-left: 490px;
  border-radius: 10px;
 }
-.container {
-  position: relative;
-  margin-top: 120px; /* Ajuste a margem superior conforme necessário */
-}
 
-.menu {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 100vh;
-  z-index: 1;
-}
+#segunda{
+  position: fixed;
+  z-index: 2;
+  margin-left: 600px;
+  margin-top: 105px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  }
 
-.menu-icon {
-  width: 30px;
-  height: 30px;
-  background-color: rgb(243, 5, 5);
-  margin: 15px;
-  cursor: pointer;
-}
-
-.menu-links {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+#videos{
+  margin-left: 500px;
+  margin-top: 200px;
   display: none;
-  position: absolute;
-  top: 0;
-  left: 70px;
-  background-color: rgb(70, 70, 70);
+  position: fixed;
+  z-index: 2;
 }
 
-.menu-links li {
-  padding: 10px;
-  color: rgb(231, 54, 0);
-}
-
-.menu.active .menu-links {
-  display: block;
-}
