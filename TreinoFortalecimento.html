@@ -5,6 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FIT TASK</title>
+    <style>
+  </style>
+  <script>
+    function mostrar() {
+      var iframe = document.getElementById("videos");
+      iframe.style.display = "block";
+    }
+  </script>
 </head>
 
 <body>
@@ -18,21 +26,10 @@
 </a>
 </div>
 
-<div class="container">
- 
- <div class="menu">
-      <div class="menu-icon"> <h1>Domingo </h1>
-        
-     </div>
-      <ul class="menu-links">
-      Neste exemplo atualizado, a classe "menu-links" está posicionada absolutamente em relação à div "menu". Quando o ícone do menu é clicado, a classe "active" é adicionada ou removida da div "menu". Isso faz com que a lista de itens seja exibida ou ocultada. Verifique se os arquivos HTML, CSS e JavaScript estão corretamente salvos e vinculados entre si
-      </ul>
-    </div>
+<div class=selecao></div>
 
-</div>
+<button id="segunda" onclick= "mostrar()">S</button>
 
-<script src="script.js"></script>
+  <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/ouLZgnHneog" frameborder="0" allowfullscreen></iframe>
+  
 
-
-</body>
-</html>]
