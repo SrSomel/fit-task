@@ -17,6 +17,12 @@ body {
   color: #fff;
 }
 
+#titulo{
+  margin-bottom:70px;
+  width: 300px;
+  margin-left: 50px;
+}
+
 input[type="text"],
 input[type="password"] {
   width: 100%;
@@ -38,10 +44,6 @@ input[type="submit"] {
   margin-left: 80px;
 }
 
-input[type="submit"]:hover {
-  background-color: #d84d4d;
-}
-
 .registrar{
   background-color: #584242;
   background-color: ;
@@ -49,10 +51,10 @@ input[type="submit"]:hover {
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
+
 }
 
-#titulo{
-  margin-bottom:70px;
-  width: 300px;
-  margin-left: 50px;
+input[type="submit"]:hover {
+  background-color: #d8804d;
 }
+
