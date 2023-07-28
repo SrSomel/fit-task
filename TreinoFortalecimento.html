@@ -9,6 +9,46 @@
   </style>
   <script>
     function mostrar() {
+      var iframe = document.getElementById("videod");
+      iframe.style.display = "block";
+    }
+
+    function mostrarse() {
+      var iframe = document.getElementById("videose");
+      iframe.style.display = "block";
+    }
+
+    function mostrart() {
+      var iframe = document.getElementById("videot");
+      iframe.style.display = "block";
+    }
+
+    function mostrarq() {
+      var iframe = document.getElementById("videoq");
+      iframe.style.display = "block";
+    }
+
+    function mostrarqi() {
+      var iframe = document.getElementById("videoqi");
+      iframe.style.display = "block";
+    }
+
+    function mostrarsx() {
+      var iframe = document.getElementById("videosx");
+      iframe.style.display = "block";
+    }
+
+    function mostrarsa() {
+      var iframe = document.getElementById("videosa");
+      iframe.style.display = "block";
+    }
+
+    function esconder(){
+       location.reload();
+    }
+     
+
+    function mostrars() {
       var iframe = document.getElementById("videos");
       iframe.style.display = "block";
     }
@@ -28,8 +68,35 @@
 
 <div class=selecao></div>
 
-<button id="segunda" onclick= "mostrar()">S</button>
+<button id="fechar" onclick= "esconder()">X</button>
 
-  <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/ouLZgnHneog" frameborder="0" allowfullscreen></iframe>
+<button id="domingo" onclick= "mostrar()">D</button>
+
+<button id="segunda" onclick= "mostrarse()">S</button>
+
+<button id="terca" onclick= "mostrart()">T</button>
+
+<button id="quarta" onclick= "mostrarq()">Q</button>
+
+<button id="quinta" onclick= "mostrarqi()">QI</button>
+
+<button id="sexta" onclick= "mostrarsx()">SX</button>
+
+<button id="sabado" onclick= "mostrarsa()">SA</button>
+
+
+  <iframe id="videod" width="560" height="315" src="https://youtube.com/embed/qgnpfAWpH7E?list=PLVdC1bJlTl44FzUW7fCf7BWxGi3rkvVJG" frameborder="0" allowfullscreen></iframe>
   
+<iframe id="videose" width="560" height="315" src="https://youtube.com/embed/GMfi5QRjOUs?si=HT3FALoEo5_pFOBx" frameborder="0" allowfullscreen></iframe>
 
+<iframe id="videot" width="560" height="315" src="https://youtube.com/embed/204Y2dTmrZ8?list=PLVdC1bJlTl44FzUW7fCf7BWxGi3rkvVJG" frameborder="0" allowfullscreen></iframe>
+
+<iframe id="videoq" width="560" height="315" src="https://youtube.com/embed/rWk1sXY9r4I?list=PLVdC1bJlTl44FzUW7fCf7BWxGi3rkvVJG" frameborder="0" allowfullscreen></iframe>
+
+<iframe id="videoqi" width="560" height="315" src="https://youtube.com/embed/-PyK9hvGLNg?list=PLVdC1bJlTl44FzUW7fCf7BWxGi3rkvVJG" frameborder="0" allowfullscreen></iframe>
+
+<iframe id="videosx" width="560" height="315" src="https://youtube.com/embed/biQ0cNvG5gI?list=PLVdC1bJlTl44FzUW7fCf7BWxGi3rkvVJG" frameborder="0" allowfullscreen></iframe>
+
+<iframe id="videosa" width="560" height="315" src="https://youtube.com/embed/RU2N-M4F_hE?list=PLVdC1bJlTl44FzUW7fCf7BWxGi3rkvVJG&t=1450" frameborder="0" allowfullscreen></iframe>
+  
+  
