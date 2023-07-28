@@ -1,1 +1,186 @@
+.cabecalho{
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position:absolute;
+}
 
+#titulo {
+  width: 270px;
+  margin-top: -5px;
+  position: absolute;
+  z-index: 2;
+} 
+
+#login {
+  width: 50px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 1250px;
+  margin-top: 20px;
+}
+
+.selecao{
+ background-color: rgb(70, 70, 70);
+ position: absolute;
+ padding: 80px;
+ padding-left: 620px;
+ margin-left: 390px;
+ border-radius: 10px;
+}
+
+  #fechar{
+  position: fixed;
+  z-index: 2;
+  margin-left: 400px;
+  margin-top: 200px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  }
+
+#videod{
+  margin-left: 510px;
+  margin-top: 200px;
+  display: none;
+  position: fixed;
+  z-index: 2;
+}
+
+#domingo{
+  position: absolute;
+  z-index: 2;
+  margin-left: 420px;
+  margin-top: 105px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  }
+
+#videose{
+  margin-left: 500px;
+  margin-top: 200px;
+  display: none;
+  position: fixed;
+  z-index: 2;
+}
+
+
+#segunda{
+  position: absolute;
+  z-index: 2;
+  margin-left: 520px;
+  margin-top: 105px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  }
+
+#videot{
+  margin-left: 500px;
+  margin-top: 200px;
+  display: none;
+  position: fixed;
+  z-index: 2;
+}
+
+#terca{
+  position: absolute;
+  z-index: 2;
+  margin-left: 620px;
+  margin-top: 105px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  }
+
+#videoq{
+  margin-left: 500px;
+  margin-top: 200px;
+  display: none;
+  position: fixed;
+  z-index: 2;
+}
+
+#quarta{
+  position: absolute;
+  z-index: 2;
+  margin-left: 720px;
+  margin-top: 105px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  }
+
+#videoqi{
+  margin-left: 500px;
+  margin-top: 200px;
+  display: none;
+  position: fixed;
+  z-index: 2;
+}
+
+#quinta{
+  position: absolute;
+  z-index: 2;
+  margin-left: 820px;
+  margin-top: 105px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  }
+
+#sexta{
+  position: absolute;
+  z-index: 2;
+  margin-left: 920px;
+  margin-top: 105px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  }
+
+#videosx{
+  margin-left: 500px;
+  margin-top: 200px;
+  display: none;
+  position: fixed;
+  z-index: 2;
+}
+
+#sabado{
+  position: absolute;
+  z-index: 2;
+  margin-left: 1020px;
+  margin-top: 105px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  }
+
+#videosa{
+  margin-left: 500px;
+  margin-top: 200px;
+  display: none;
+  position: fixed;
+  z-index: 2;
+}
